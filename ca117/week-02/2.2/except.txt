@@ -1,0 +1,18 @@
+for all the bests_v3 and bests you can do one try inside the for loop and do the excepts one after another instead 
+of having two try statements. (one after with and one after for loop)
+
+Like this:
+
+
+with open(...) as f:
+    for line in f:
+        try:
+
+        do something
+
+
+        except ValueError:
+            pass
+
+        except FileNotFoundError:
+            pass

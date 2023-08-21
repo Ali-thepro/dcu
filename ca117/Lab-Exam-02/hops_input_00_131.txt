@@ -1,0 +1,9 @@
+paris rome helsinki cork dublin london brussels
+paris rome
+paris helsinki
+paris london
+paris brussels
+cork dublin
+cork london
+dublin london
+dublin brussels
