@@ -1,0 +1,74 @@
+ Typing "pwd" causes what to happen? 
+print current working directory
+
+ Typing "cd" causes what to happen? 
+takes you to your home directory
+
+ The "cd" command (then hit return) followed by the "pwd" command does what? 
+prints the path of the users home directory
+
+ Typing "cd" (then hit return) followed by "cd .." causes what to happen? 
+makes you go to the parent directory of the users home directory
+
+ The commands "cd" followed by "mkdir stuff" are run, what happens? 
+makes a new directory called stuff
+
+ The commands "cd" followed by "mkdir ../stuff" are run, what happens? Why? 
+makes a folder called stuff inside the parent directory of the users home directory
+
+ I am in my home directory and I type: cd bin - What directory am I in now? 
+~/bin in the current users home directory
+
+ I am in my home directory and I type: cd /bin - What directory am I in now? 
+the /bin directory in the root directory
+
+ I am in my home directory and I type: cd ../bin - What happens? Why? 
+changes to /home/bin because goes to the directory 'bin' in the parent of the user's home directory- if it exists
+
+ Typing "cd /" causes what to happen? 
+changes to root directory
+
+ Typing "cd /" followed by "cd .." causes what to happen? 
+does nothing, you stay in the root directory
+
+ The commands "cd /" followed by "mkdir stuff" are run, what happens? 
+makes a directory called /stuff in the root directory - provided yo - provided you have the permission to do so (i.e if you are root)
+
+ Typing "cd \" causes what to happen? 
+nothing - backslash means new character. if return key is pressed again, then takes to home directory
+
+ What is the directory /bin for? 
+for binaries ( programs) used in the system
+
+ How do you list the files in /bin? 
+ls /bin
+
+ EXTRA QUESTION (only for experienced Linux people): Write a one-line command line to count the number of files in /bin 
+ls /bin | wc -l
+
+ The command ls -l does what? 
+list the contents of the current directory in long list format. one file per line excluding hidden files and directories
+
+ The command ls -a does what? 
+list the contents of the current directory includig the hidden files and directories
+
+ The command ls -al does what? 
+lists all the contents of the current directory in long format, one file/folder per line including hidden files
+
+ The command ls -R does what? 
+lists the contents of the current directory recursively, including the contents of all child directories 
+
+ On Windows command line, by typing in cd \ what happens? 
+changes directory to the root directory- C:\
+
+ On Windows command line, by typing in cd / what happens? 
+interprets it as cd \ - changes directory to the root directory- C:\
+
+ On Windows, C:\ is the equivalent of what on UNIX/Linux? 
+/ - the root directory 
+
+ On Windows, C:\Users\me is the equivalent of what on UNIX/Linux? 
+/home/me ~ or $HOME - the current user's home directory
+
+ On Windows, C:\Windows\System32 is the equivalent of what on UNIX/Linux? 
+/bin or /usr/bin
