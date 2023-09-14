@@ -1,6 +1,6 @@
 /*
-Program: lab1-hello_again.c
-Author: Your Name
+Program: lab1-hello-again-further.c
+Author: Ali Ahmad
 Input: A full name
 Output: Print out the given name
 */

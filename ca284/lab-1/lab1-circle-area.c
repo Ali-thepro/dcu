@@ -1,6 +1,6 @@
 /*
  circle-area.c
- author <your name>
+ author <Ali Ahmad>
  */
 
 /* includes*/
