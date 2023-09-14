@@ -7,7 +7,7 @@
 #include <stdlib.h>
 
 int main(int argc, char*argv[]) {
-    int try, conversion, penalty, drop_goal, total=0;
+    int try, conversion, penalty, drop_goal, total = 0;
     try = atoi(argv[1]);
     conversion = atoi(argv[2]);
     penalty = atoi(argv[3]);
