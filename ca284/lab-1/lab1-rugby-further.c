@@ -48,6 +48,8 @@ int main() {
 
     total = (try * 5) + (conversion * 2) + (penalty * 3) + (drop_goal * 3);
     printf("%d\n", total);
+
+    return 0;
 }
 
 int get_an_int() {
