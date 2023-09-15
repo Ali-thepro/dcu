@@ -7,7 +7,7 @@ author <Ali Ahmad>
 #include <stdio.h>
 #include <stdlib.h> /* contains functions we may need*/
 
-#define PI 3.1415 /*Defining PI as a constant*/
+#define PI 3.14 /*Defining PI as a constant*/
 
 /* Function: Main
 parameters: int argc (argument count)
@@ -18,16 +18,16 @@ description:  Takes a single argument and computes area of circle
 int main(int argc, char *argv[])
 {
 /* variable initialisation */
-    int radius = 0;
+    int radius = 3;
     float area = 0.0;
 /* all command-line arguments come in as character strings, so atoi turns them into ints*/
-    radius = atoi(argv[1]);
+  /*  radius = atoi(argv[1]);
 
     if (radius < 0) {
         printf("Error: negative radius\n");
         printf("Enter new radius: ");
         scanf("%d", &radius);
-    }
+    } */
     radius = radius*radius; /* radius squared */
 
     area  = radius*PI; /* calculate area of circle */
