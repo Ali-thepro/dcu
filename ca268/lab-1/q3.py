@@ -8,10 +8,46 @@ class Memories:
         else:
             return False
 
-# Example usage:
-person1 = Memories(name='Tom', age=32, salary=50000, body=0)
+person1 = Memories(name='Tom', age=32, salary=50000)
 print(person1.remember('salary')) 
 print(person1.remember('email')) 
+
+
+
+
+
+
+
+# class Memories:
+    
+#     def __init__(self, name, age, salary):
+#         self.name = name
+#         self.age = age
+#         self.salary = salary
+
+#method 1    
+    # def remember(self, info):
+    #     attribute_info = getattr(self, info, False)
+    #     return attribute_info
+
+        # if attribute_info:
+        #     return attribute_info
+        # else:
+        #     return False
+
+        # return attribute_info if attribute_info else False
+
+#method 2
+    # def remember(self ,info):
+    #     try:
+    #         attribute_info = getattr(self, info)
+    #         return attribute_info
+    #     except AttributeError:
+    #         return False
+
+# person1 = Memories(name='Tom', age=32, salary=50000)
+# print(person1.remember('salary')) 
+# print(person1.remember('email')) 
 
 
 
