@@ -10,5 +10,3 @@ uniq -d | head -1
 #     fi
 #     last="$line"
 # done
-
-
