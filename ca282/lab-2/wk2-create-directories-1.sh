@@ -22,3 +22,15 @@ done
 
 # n="$1"
 # mkdir $(seq -f "dir.%.0f" $n)
+
+# for n in $(seq $1)
+# do
+#     mkdir "dir.$n"
+# done
+
+
+# seq "$1" |
+# while read n
+# do
+#     mkdir "dir.$n"
+# done
