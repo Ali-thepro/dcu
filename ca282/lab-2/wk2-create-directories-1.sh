@@ -4,7 +4,8 @@ n="$1"
 i=0
 while [ "$i" -lt "$n" ]
 do
-    mkdir "dir."$((i+=1))
+    fileName=$((i+=1))
+    mkdir "dir.$fileName"
 done
 
 
